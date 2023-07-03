@@ -1,11 +1,10 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "adb85bc38e560362e1a360ae8cf424d21a42429887c565911d19102f5c42433c"
+            "sha256": "ccba226e632b1071abc375e641b3b4024ea500da783db8d679ba73a8107d614d"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_full_version": "3.10.10",
             "python_version": "3.10"
         },
         "sources": [
@@ -16,8 +15,7 @@
             }
         ]
     },
-    "default": {},
-    "develop": {
+    "default": {
         "buildkite-test-collector": {
             "hashes": [
                 "sha256:4eba9667f0c215ac41520bd464e98d1fd195680d3879596622a5305043774f0e",
@@ -203,5 +201,6 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.0.3"
         }
-    }
+    },
+    "develop": {}
 }
