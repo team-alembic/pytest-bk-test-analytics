@@ -20,7 +20,10 @@ jobs:
         uses: actions/setup-python@v3.1.4
 
       - name: Install project
-        run: pipenv sync
+        run: |
+          python3 -m pip install --user pipenv
+          python3 -m pipenv --python 3
+          python3 -m pipenv install
 
       - name: Run tests
         run: pytest
