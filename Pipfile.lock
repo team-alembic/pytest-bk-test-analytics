@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f5c1b9c830a1ad32735bda92811ce3f3ecc0a8e5604d2723a18989c721b51ba2"
+            "sha256": "ebdcd18f9250fbd0cb843525bff3a626fbe9d833b48b32abe6286a99332750ad"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,11 +18,11 @@
     "default": {
         "buildkite-test-collector": {
             "hashes": [
-                "sha256:e83a5762b73b2f7a916493c5862223165872a31f33fed202e661af6b27b81dac",
-                "sha256:f2b43762fd7b1b3f189e76cd35b33c5b3a5d1f396991dc0fdaa6db93eb3aceb0"
+                "sha256:4bcd3860e2c3aa85a1539ab11d1b5a0d8bece08329b92ff9302b5a8071c3cf84",
+                "sha256:f03ca1eb792e72e21779661fd18af21e12f7a169629891a2d61d8c60c178cc63"
             ],
             "index": "pypi",
-            "version": "==0.1.6"
+            "version": "==0.1.0"
         },
         "certifi": {
             "hashes": [
