@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUILDKITE_ANALYTICS_TOKEN: ${{ secrets.BUILDKITE_ANALYTICS_TOKEN }}
+      BUILDKITE_ANALYTICS_DEBUG_ENABLED: 'TRUE'
 
     steps:
       - name: Checkout
