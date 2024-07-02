@@ -37,4 +37,4 @@ jobs:
       - name: Run tests
         env:
           WORKERS: ${{inputs.workers || '1'}}
-        run: BUILDKITE_ANALYTICS_DEBUG_ENABLED=TRUE python3 -m pipenv run pytest -n=${{env.WORKERS}}
+        run: python3 -m pipenv run pytest -n=${{env.WORKERS}}
