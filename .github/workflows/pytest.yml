@@ -18,7 +18,7 @@ jobs:
     env:
       BUILDKITE_ANALYTICS_TOKEN: ${{ secrets.BUILDKITE_ANALYTICS_TOKEN }}
       BUILDKITE_ANALYTICS_DEBUG_ENABLED: 'TRUE'
-      BUILDKITE_MESSAGE: 'Test run with ${{inputs.workers}} workers'
+      BUILDKITE_ANALYTICS_MESSAGE: 'Test run with ${{inputs.workers}} workers'
 
     steps:
       - name: Checkout
