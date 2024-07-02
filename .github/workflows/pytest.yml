@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      workers:
+        description: number of workers
+        type: string
+        default: '1'
 
 jobs:
   run-tests:
