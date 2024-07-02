@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUILDKITE_ANALYTICS_TOKEN: ${{ secrets.BUILDKITE_ANALYTICS_TOKEN }}
-      BUILDKITE_ANALYTICS_DEBUG_ENABLED: 1
+      BUILDKITE_ANALYTICS_DEBUG_ENABLED: 'TRUE'
 
     steps:
       - name: Checkout
@@ -37,4 +37,4 @@ jobs:
       - name: Run tests
         env:
           WORKERS: ${{inputs.workers || '1'}}
-        run: python3 -m pipenv run pytest -n=${{env.WORKERS}}
+        run: BUILDKITE_ANALYTICS_DEBUG_ENABLED=TRUE python3 -m pipenv run pytest -n=${{env.WORKERS}}
