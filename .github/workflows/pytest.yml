@@ -34,4 +34,6 @@ jobs:
           python3 -m pipenv install
 
       - name: Run tests
-        run: python3 -m pipenv run pytest -n=2
+        env:
+          WORKERS: ${{inputs.workers}}
+        run: python3 -m pipenv run pytest -n=${{env.WORKERS}}
