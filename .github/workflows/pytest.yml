@@ -35,5 +35,5 @@ jobs:
 
       - name: Run tests
         env:
-          WORKERS: ${{inputs.workers}}
+          WORKERS: ${{inputs.workers || '1'}}
         run: python3 -m pipenv run pytest -n=${{env.WORKERS}}
