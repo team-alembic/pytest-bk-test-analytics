@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pytest = "==7.3.2"
-pytest-xdist = "==3.3.1"
+pytest-xdist = "==3.6.1"
 buildkite-test-collector = "==0.1.7"
 
 [dev-packages]
