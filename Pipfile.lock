@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a6a7f4657a1c38b61560f43bb7626c4b888c066ea19f5f82c4fa487d19100277"
+            "sha256": "2528078b8448fcfb565c2a6eee0ba67976d39ac0517b5502cbee476f6bdc9f7f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,21 +17,17 @@
     },
     "default": {
         "buildkite-test-collector": {
-            "hashes": [
-                "sha256:4eba9667f0c215ac41520bd464e98d1fd195680d3879596622a5305043774f0e",
-                "sha256:555b5b7ef771e4ced23e004899c18f837faaa3b6167f3d129b871f8c2419abdb"
-            ],
-            "index": "pypi",
+            "git": "https://github.com/buildkite/test-collector-python",
             "markers": "python_version >= '3.8'",
-            "version": "==0.1.7"
+            "ref": "a71048911df26d497edc787f498b85f8e85cb347"
         },
         "certifi": {
             "hashes": [
-                "sha256:3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516",
-                "sha256:ddc6c8ce995e6987e7faf5e3f1b02b302836a0e5d98ece18392cb1a36c72ad56"
+                "sha256:5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b",
+                "sha256:c198e21b1289c2ab85ee4e67bb4b4ef3ead0892059901a8d5b622f24a1101e90"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2024.6.2"
+            "version": "==2024.7.4"
         },
         "charset-normalizer": {
             "hashes": [
